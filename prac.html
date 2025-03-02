@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>MINE</title>
+</head>
+<body>
+    <h1>hello</h1>
+    <p id="one">Dear Pragathish</p>
+    <p id="two" onmouseover="change()">I Love You</p>
+    <button onclick="change()">Will you be mine?</button>
+</body>
+<script>
+    console.log(document.getElementById("one"))
+    var para = document.getElementById("two")
+    console.log(para.textContent)
+    function change(){
+    para.textContent="Miss you"
+    }
+    
+</script>

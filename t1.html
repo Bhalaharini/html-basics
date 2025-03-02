@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <title>TASk one</title>
+</head>
+<body>
+    <input id="one" onkeyup="hang()">
+    <button onmouseup="hang()" >btn</button>
+    <h1 id="two"></h1>
+</body>
+<script>
+    var x = document.getElementById("one")
+    var y = document.getElementById("two")
+    function hang(){
+        y.textContent = x.value
+
+    }
+</script>

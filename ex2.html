@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>EX2</title>
+</head>
+<body>
+    <p>Enter 1st number</p>
+    <input id="num1" type="text">
+    <p>Enter 2nd number</p>
+    <input id="num2" type="text">
+    <button onclick="fn()">submit</button>
+    <p id="result">RESULT</p>
+</body>
+<script>
+    var n1 = document.getElementById("num1")
+    var n2 = document.getElementById("num2")
+    var sum = document.getElementById("result")
+    
+    function fn(){
+        var x = Number(n1.value)
+        var y = Number(n2.value)
+        var z = x+y
+        sum.textContent=("Result"+z)
+    }
+</script>

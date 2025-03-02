@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<body>
+    <h1 id="one"></h1>
+    <button onclick="show(event)" id="two">Praveen</button>
+    <button onclick="show(event)" id="three">karthi</button>
+</body>
+<script>
+    function show(event){
+        var u = document.getElementById("one")
+        u.textContent = event.target.textContent
+    }
+</script>
